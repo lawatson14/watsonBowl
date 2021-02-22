@@ -1,0 +1,79 @@
+.nav{
+	width: inherit;
+}
+
+.bg-info .nav-item a{
+	color: #fff;
+}
+.bg-info .nav-item a:hover, .bg-info .nav-item a:active{
+	text-decoration: underline;
+}
+
+footer{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+@media (max-width: 767px){
+	#main-nav-toggler{
+		position: absolute;
+		top: 54px;
+		left: 0px;
+		height: calc(100vh - 54px);
+		width: 50vw;
+		z-index: 1005;
+	}
+
+}
+
+@media (max-width: 575px){
+	#main-nav-toggler{
+		position: absolute;
+		top: 54px;
+		left: 0px;
+		height: calc(100vh - 54px);
+		width: 75vw;
+		z-index: 1005;
+	}
+}
+
+
+
+
+
+
+
+
+
+.tab-pane{
+	max-height: calc(100vh - 88px);
+
+}
+
+.tab-body{
+	max-height: calc(100vh - 211px);
+	overflow-y: auto;
+}
+
+.table tr{
+	text-align: center;
+}
+
+.modal-content{
+	max-height: calc(100vh - 58px);
+}
+.modal-body{
+	max-height: calc(100vh - 116px);
+	overflow-y: auto;
+}
+@media (max-width: 768px){
+	.modal-content{
+		max-height: calc(100vh - 18px);
+	}
+	.modal-body{
+		max-height: calc(100vh - 76px);
+		overflow-y: auto;
+	}	
+}
